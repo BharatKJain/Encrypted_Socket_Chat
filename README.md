@@ -50,7 +50,8 @@ copy all the installed files in the system to the respective QT folders
 * By following the instructions of simple SeverQT and ClientQT for AES Encrypted model.
 * The AES Encryption is done by using Crypto++ library in C++, the library is mentioned above.
 * A sample program of AES Encryption is given in the repository.
-3)The FSerEnc and FCliEnc folder consists of RSA based encryption of AES keys which will further be used to encrypt the 
+
+3) The FSerEnc and FCliEnc folder consists of RSA based encryption of AES keys which will further be used to encrypt the 
   'Socket Chat':
   
  * The code is similar to 
