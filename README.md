@@ -45,12 +45,16 @@ copy all the installed files in the system to the respective QT folders
 * Then following server execute the client then start the client connection.
 * Now,starting from the client side 1st message is sent then server (first recieves the message from client ) sends message, pattern is repeated. 
 * Messing up the message pattern will cause the problems.
+2) The EncSerQT and EncCliQT folder consists of AES Encrypted Socket Client and Server model:
 
-2)
-
-
-
-
+* By following the instructions of simple SeverQT and ClientQT for AES Encrypted model.
+* The AES Encryption is done by using Crypto++ library in C++, the library is mentioned above.
+* A sample program of AES Encryption is given in the repository.
+3)The FSerEnc and FCliEnc folder consists of RSA based encryption of AES keys which will further be used to encrypt the 
+  'Socket Chat':
+  
+ * The code is similar to 
+ 
 _/*_
 _compiling program using g++ in terminal:     g++ -DNDEBUG -g3 -O2 -Wall -Wextra -o AES AES.cpp -l:libcryptopp.a_
 _executing c++ program :     ./AES_
